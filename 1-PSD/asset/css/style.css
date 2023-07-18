@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-    width: 1400px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -27,6 +27,11 @@ a {
     flex-wrap: wrap;
 }
 
+[class *=col_] {
+    width: 100%;
+}
+
+/* 
 .col_40 {
     width: 40%;
 }
@@ -52,7 +57,7 @@ a {
 
 .col_22 {
     width: 24%;
-}
+} */
 
 .justify {
     justify-content: space-between;
@@ -95,7 +100,9 @@ header {
 .section_1 {
     padding: 80px 0;
     background: rgb(74, 113, 99);
-    background: linear-gradient(0deg, rgba(74, 113, 99, 1) 42%, rgba(228, 204, 202, 1) 42%);
+    background: linear-gradient(0deg, rgba(74, 113, 99, 1) 43%, rgba(235, 208, 207, 1) 43%, rgba(235, 208, 207, 1) 66%, rgba(235, 208, 207, 1) 78%);
+
+
 }
 
 .home_img img {
@@ -147,7 +154,7 @@ header {
 /* --Section 2-- */
 
 .sec2 {
-    padding: 60px;
+    padding: 60px 0;
     background-color: #ebd0cf;
 }
 
@@ -165,20 +172,26 @@ header {
 
 
 .se2_img_text {
-    padding: 60px;
+    /* padding: 60px; */
     text-align: center;
     color: #4a7163;
+    margin: 0 60px;
 }
 
 .se2_img_text img {
     display: block;
     margin: 0 auto;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    width: 100%;
 
 }
 
 .col_7 {
     margin: 0 auto;
+}
+
+.se2_icon {
+    text-align: center;
 }
 
 .se2_icon i {
@@ -206,7 +219,7 @@ header {
 }
 
 .se_3_text h1 {
-    font-size: 106px;
+    font-size: 50px;
     line-height: 97px;
     word-spacing: 37px;
     font-weight: 400;
@@ -290,7 +303,7 @@ header {
 }
 
 .se_5_text h1 {
-    font-size: 90px;
+    font-size: 40px;
     font-weight: 100;
     padding: 30px 0;
 }
@@ -330,7 +343,7 @@ header {
 
 .se_6_text h2 {
     font-weight: 100;
-    font-size: 100px;
+    font-size: 40px;
 }
 
 .se_6_text h3 {
@@ -339,9 +352,9 @@ header {
     padding: 10px 0;
 }
 
-.se_6_img_text p {
+/* .se_6_img_text p {
     padding: 0px 100px 50px 100px;
-}
+} */
 
 .se_6_img_text h4 {
     padding: 20px 0;
@@ -361,19 +374,23 @@ header {
 }
 
 .se_7_text h1 {
-    font-size: 104px;
+    font-size: 40px;
     padding: 80px 0;
 }
 
 .se_7_imgtext h3 {
-    font-size: 35px;
+    font-size: 24px;
     padding-top: 20px;
     font-weight: 100;
 }
 
 .se_7_imgtext p {
-    padding: 40px 94px;
+    /* padding: 40px 94px; */
     text-align: justify;
+}
+
+.se_7_imgtext img {
+    width: 80%;
 }
 
 .se_7_button {
@@ -394,7 +411,7 @@ header {
 
 
 .sec_8 {
-    padding: 100px;
+    padding: 100px 0;
     color: #ebd0cf;
 }
 
@@ -427,4 +444,108 @@ header {
 
 footer {
     background-color: #4a7163;
+}
+
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+
+    .section_1 {
+        background: rgb(74, 113, 99);
+        background: linear-gradient(0deg, rgba(74, 113, 99, 1) 23%, rgba(235, 208, 207, 1) 23%, rgba(235, 208, 207, 1) 55%);
+    }
+
+    .section_3 {
+        background: rgb(74, 113, 99);
+        background: linear-gradient(90deg, rgba(74, 113, 99, 1) 89%, rgba(235, 208, 207, 1) 89%, rgba(235, 208, 207, 1) 90%);
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .se_3_text h1 {
+        font-size: 106px;
+    }
+
+    .se_6_text h2 {
+        font-size: 100px;
+    }
+
+    .se_4_text h1 {
+        font-size: 105px;
+    }
+
+    .se_5_text h1 {
+        font-size: 90px;
+    }
+
+    .se_7_text h1 {
+        font-size: 104px;
+    }
+
+    .se_7_imgtext p {
+        padding: 40px 94px;
+    }
+
+    .se_6_img_text p {
+        padding: 0px 100px 50px 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .section_1 {
+        background: rgb(74, 113, 99);
+        background: linear-gradient(0deg, rgba(74, 113, 99, 1) 43%, rgba(235, 208, 207, 1) 43%, rgba(235, 208, 207, 1) 66%, rgba(235, 208, 207, 1) 78%);
+    }
+
+
+
+    .col_40 {
+        width: 40%;
+    }
+
+    .col_60 {
+        width: 60%;
+    }
+
+    .col_12 {
+        width: 100%;
+    }
+
+    .col_30 {
+        width: 33%;
+        margin: 0 auto;
+
+    }
+
+    .col_50 {
+        width: 50%;
+    }
+
+    .col_22 {
+        width: 24%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
 }
