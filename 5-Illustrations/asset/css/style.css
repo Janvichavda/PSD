@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    overflow-x: hidden;
+    /* background-color: #ffcda9; */
+}
+
+section {
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align {
+    align-items: center;
+}
+
+.col_60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.col_40 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.col_50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pos-ab {
+    position: absolute;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+/* --header-- */
+
+.homepage {
+    background-color: #ffcda9;
+
+}
+
+.header_text ul li {
+    display: inline;
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.home {
+    padding: 70px 0;
+}
+
+.home-img .img2 {
+    right: -131px;
+    top: -75px;
+}
+
+.home-img .img1 {
+    z-index: 100;
+    top: 45px;
+}
+
+.home-img .img3 {
+    bottom: -90px;
+    left: -28px;
+}
+
+.home-img .img4 {
+    bottom: 0px;
+    left: 0;
+}
+
+.home-text .img1 {
+    left: -26px;
+    bottom: -294px;
+}
+
+.home-text h1 {
+    font-size: 150px;
+}
+
+.home-text p {
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+.home-text button {
+    background-color: #58c3d7;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.home-text h2 {
+    color: black;
+    font-family: 'Raleway-ExtraBold';
+    font-weight: bolder;
+    font-size: 141px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+
+}
+
+svg {
+    transform: rotate(30deg);
+}
+
+svg text {
+    text-anchor: middle;
+    fill: black;
+    font-size: 16px;
+    offset: 50%;
+}
+
+.home-t {
+    right: 172px;
+    top: -108px;
+}
+
+.home-outside-img .img1 {
+    right: 46px;
+    bottom: -10px;
+}
+
+.home-outside-img .img2 {
+    bottom: 0px;
+    right: 0px;
+}
+
+/* --section 1 -- */
+
+
+.sec1-left-img .img1 {
+    left: -168px;
+}
