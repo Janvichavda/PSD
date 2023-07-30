@@ -67,6 +67,8 @@ a {
 
 }
 
+
+
 .header_text ul li {
     display: inline;
     padding: 0 50px;
@@ -160,7 +162,83 @@ svg text {
 
 /* --section 1 -- */
 
+.sec-1 {
+    background-color: #58c3d7;
+}
 
-.sec1-left-img .img1 {
-    left: -168px;
+
+.box {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.box>img {
+    width: 100%;
+}
+
+.img {
+    top: 0;
+    left: -269px;
+    position: absolute;
+}
+
+.box .img1 {
+    top: 0;
+    right: -113px;
+    position: absolute;
+}
+
+.box .img2 {
+    top: 0;
+    position: absolute;
+}
+
+.img-a {
+    top: 0;
+    position: absolute;
+}
+
+.img-b {
+    top: 0;
+    left: -351px;
+    position: absolute;
+}
+
+.sec1-left-img,
+.sec1-rit-img,
+.sec1-rit-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wave-line {
+    left: -249px;
+}
+
+.sec-1-left h3 {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.sec1-rit-text h2 {
+    font-size: 100px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.sec1-rit-text p {
+    padding: 50px 0;
+    text-align: right;
+    font-size: 20px;
+}
+
+.sec1-rit-img h3 {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.wave-line1 {
+    right: 64px;
+    bottom: -148px
 }
