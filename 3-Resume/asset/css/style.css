@@ -136,8 +136,8 @@ img {
 
 .header_end {
     padding: 10px 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     text-align: right;
     font-family: 'IBMitalic';
 }
