@@ -452,7 +452,6 @@ footer {
         width: 540px;
     }
 
-
     .section_1 {
         background: rgb(74, 113, 99);
         background: linear-gradient(0deg, rgba(74, 113, 99, 1) 23%, rgba(235, 208, 207, 1) 23%, rgba(235, 208, 207, 1) 55%);
@@ -508,8 +507,6 @@ footer {
         background: linear-gradient(0deg, rgba(74, 113, 99, 1) 43%, rgba(235, 208, 207, 1) 43%, rgba(235, 208, 207, 1) 66%, rgba(235, 208, 207, 1) 78%);
     }
 
-
-
     .col_40 {
         width: 40%;
     }
@@ -525,7 +522,6 @@ footer {
     .col_30 {
         width: 33%;
         margin: 0 auto;
-
     }
 
     .col_50 {
