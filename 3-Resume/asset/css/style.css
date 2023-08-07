@@ -1,0 +1,754 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../font/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'IBM';
+    src: url(../font/IBM_Plex_Sans/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url(../font/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url(../font/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'IBMitalic';
+    src: url(../font/IBM_Plex_Sans/IBMPlexSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'IBMbold';
+    src: url(../font/IBM_Plex_Sans/IBMPlexSans-Bold.ttf);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align {
+    align-items: center;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.r-50 {
+    right: 50px;
+}
+
+.pos-ab {
+    position: absolute;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+[class *=col] {
+    width: 100%;
+}
+
+
+.menu {
+    padding: 50px 0;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+
+
+.menu ul li a:hover {
+    color: #000000;
+    border-bottom: 2px solid blue;
+    font-weight: 700;
+}
+
+.blue {
+    background-color: #4012cb;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.header_img {
+    width: 90%;
+    filter: grayscale(20);
+}
+
+.header_text {
+    padding-top: 50px;
+    width: 50%;
+}
+
+
+.header_text p {
+    font-size: 12px;
+    padding: 40px 0;
+    font-family: 'lato';
+}
+
+.learnmore a {
+    border: #4012cb 3px solid;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'IBM';
+}
+
+.header_end {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'IBMitalic';
+}
+
+.header_end h2 {
+    font-size: 40px;
+    font-family: 'IBMitalic';
+}
+
+.header_end h3 {
+    font-size: 20px;
+}
+
+.zeroone {
+    padding: 60px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.zeroone span {
+    display: flex;
+    font-family: 'lato';
+    font-weight: bold;
+    justify-content: end;
+}
+
+.zeroone span i {
+    font-size: 50px;
+    padding: 0 20px;
+}
+
+.zeroone p {
+    border-top: 1px solid;
+    text-align: justify;
+    padding: 20px 0;
+    font-family: 'lato';
+}
+
+.big {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'IBMbold';
+}
+
+.big1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+/* --section 2-- */
+
+.sec_2 {
+    padding: 100px 0;
+}
+
+.sec-2-header h1 {
+    font-size: 78px;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'IBMbold';
+}
+
+.sec-2-header button {
+    color: #551ad2;
+    border: 3px solid #4012cb;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin: 50px 0;
+    font-family: 'latobold';
+}
+
+.sec2-text p {
+    width: 50%;
+    font-family: 'latolight';
+    font-size: 11px;
+    line-height: 10px;
+    margin-left: auto;
+}
+
+.sec2-text2 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sec2-text2 h3 {
+    font-size: 40px;
+    font-family: 'IBMbold';
+}
+
+.sec2-text2 p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 12px;
+    padding: 40px 0;
+    font-family: 'IBM';
+}
+
+.sec2-text2 button {
+    background-color: white;
+    color: #551ad2;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 50px;
+    font-family: 'IBMbold';
+}
+
+.sec2-text3 {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+
+.sec2-text3 i {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.sec2-text3 p {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 30px;
+    font-family: 'IBM';
+}
+
+.sec2-text {
+    padding-bottom: 70px;
+    font-family: 'IBM';
+}
+
+/* --section 3-- */
+
+.sec_3 {
+    filter: grayscale();
+    position: relative;
+}
+
+.sec-3-text {
+    bottom: 100px;
+    width: 44%;
+    right: 0;
+    font-family: 'IBMbold';
+}
+
+.one {
+    z-index: 1000;
+    top: 76px;
+    right: 90px;
+    font-size: 90px;
+    color: white;
+
+}
+
+
+
+
+
+.sec-3-text button {
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px white solid;
+    background-color: black;
+    padding: 10px;
+}
+
+
+/* --section 4-- */
+.sec-4 {
+    background-color: #ebe6fb;
+    padding: 100px 0;
+}
+
+.sec-4-arrow {
+    padding-top: 136px;
+}
+
+.sec-4-arrow i {
+    border: 1px solid #4012cb;
+    color: #4012cb;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.sec-4-box {
+    border: 1px solid #4012cb;
+    text-align: center;
+    padding: 60px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sec-4-box i {
+    color: #4012cb;
+    font-size: 70px;
+    padding: 20px 0;
+}
+
+.sec-4-box p {
+    border-top: 1px solid #4012cb;
+    text-align: justify;
+    padding: 30px 0;
+    font-size: 10px;
+    font-family: 'lato';
+}
+
+
+/* --section 5-- */
+.sec-5 {
+    background-color: #4012cb;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'IBMbold';
+}
+
+.sec5-text {
+    display: flex;
+    outline: 1px solid #FFF;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.sec5-text input {
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 90%;
+    background-color: #4012cb;
+    border: none;
+    outline: none;
+    color: #ebe6fb;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.sec5-text button {
+    margin: 5px;
+    padding: 14px 51px;
+    border-radius: 20px;
+    border: none;
+    color: #551ad2;
+    font-family: 'IBMbold';
+}
+
+.lines {
+    border-left: 20px double white;
+    border-right: 20px double white;
+    padding: 100px 0;
+}
+
+/* -- section 6--- */
+
+.sec-6 {
+    padding: 50px 0;
+    color: white;
+}
+
+.sec-6-text p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 50px 0;
+    color: black;
+    font-family: 'lato';
+}
+
+.sec6-text-l {
+    font-size: 50px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'IBMbold';
+}
+
+.sec6-text-l,
+.sec6-text-r {
+    padding: 50px 0;
+}
+
+
+
+.sec6-text-r {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'lato';
+    text-align: justify;
+}
+
+.sec6-text-r p {
+    padding: 10px 0;
+}
+
+.sec6-text-r button {
+    border: white 3px solid;
+    background-color: #551ad2;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'IBM';
+}
+
+/* --section 8-- */
+
+.sec8 {
+    padding: 70px 0;
+}
+
+.sec8-l,
+.sec8-h,
+.sec8-la {
+    display: flex;
+}
+
+.sec8-p p {
+    font-family: 'IBM';
+    width: 50%;
+    border-bottom: 3px solid #551ad2;
+}
+
+
+.sec8-h {
+    font-family: 'IBMbold';
+    padding: 30px 0;
+}
+
+.sec8-h h2 {
+    font-size: 100px;
+}
+
+.sec8-h h3 {
+    display: flex;
+    align-items: end;
+}
+
+.sec8-r button {
+    margin: 5px;
+    padding: 14px 51px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'lato';
+    color: white;
+    background-color: black;
+}
+
+.sec8-l {
+    font-family: 'IBM';
+    border-top: 3px solid #551ad2;
+    border-bottom: 3px solid #551ad2;
+    margin: 10px 0;
+    font-size: 13px;
+    padding: 20px 30px;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.sec8-l button {
+    border: none;
+
+}
+
+.sec8-la {
+    font-family: 'IBM';
+    font-size: 13px;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.sec8-la button {
+    border: none;
+}
+
+.sec8-r {
+    font-family: 'lato';
+}
+
+.sec8-p p {
+    font-size: 13px;
+    padding: 20px 10px;
+    width: 70%;
+    text-align: justify;
+}
+
+.sec8-r {
+
+    padding: 50px 0;
+}
+
+.sec8-r p {
+    border-top: 3px solid #551ad2;
+    padding: 20px 0;
+    font-size: 10px;
+    text-align: justify;
+}
+
+/* --section 9-- */
+
+.sec9 {
+    background-color: #551ad2;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'IBM';
+}
+
+.sec9-t,
+.sec9-f,
+.sec9-i {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sec9-t ul li {
+    list-style: none;
+}
+
+.sec9-t ul li a {
+    color: white;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+}
+
+.icon i {
+    /* display: flex; */
+    text-align: end;
+    background-color: white;
+    font-size: 40px;
+    color: #551ad2;
+    padding: 10px;
+}
+
+.sec9-i h2 {
+    font-size: 50px;
+    padding: 30px 0;
+    font-family: 'IBMbold';
+}
+
+.sec9-i h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.sec9-f h3 {
+    padding: 70px;
+    font-size: 20px;
+}
+
+.sec9-t ul li {
+    padding: 5px 0;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+    .menu ul li a {
+        color: grey;
+        padding: 0px;
+        font-family: 'latolight';
+    }
+
+    .header_text h1 {
+        font-family: 'IBM';
+        font-size: 33px;
+        line-height: 68px;
+    }
+
+    .sec-3-text h3 {
+        color: white;
+        font-size: 30px;
+        padding: 40px 0;
+        line-height: 80px;
+    }
+
+    .sec2-text3 h3 {
+        font-size: 48px;
+        font-family: 'IBMbold';
+    }
+
+    .menu ul li a:hover {
+        color: #000000;
+        border-bottom: 2px solid blue;
+        font-weight: 700;
+    }
+
+    .home {
+        padding: 100px 0;
+    }
+
+    .sec-4-box button {
+        background-color: #4012cb;
+        font-size: 9px;
+        padding: 5px 25px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .header_text h1 {
+        font-family: 'IBM';
+        font-size: 78px;
+        line-height: 68px;
+    }
+
+    .sec-3-text h3 {
+        color: white;
+        font-size: 65px;
+        padding: 40px 0;
+        line-height: 80px;
+    }
+
+    .sec2-text3 h3 {
+        font-size: 68px;
+        font-family: 'IBMbold';
+    }
+
+    .menu ul li a {
+        color: grey;
+        padding: 10px;
+        font-family: 'latolight';
+    }
+
+    .home {
+        width: 80%;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    .sec-4-box button {
+        background-color: #4012cb;
+        font-size: 20px;
+        padding: 5px 39px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+
+
+
+
+
+
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+
+    .col_30 {
+        width: 30%;
+    }
+
+    .col_70 {
+        width: 70%;
+    }
+
+    .col_1 {
+        width: 100%;
+    }
+
+    .col_10 {
+        width: 10%;
+    }
+
+    .col_40 {
+        width: 40%;
+    }
+
+    .col_50 {
+        width: 50%;
+    }
+
+    .col-25 {
+        width: 25%;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
