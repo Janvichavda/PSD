@@ -38,7 +38,15 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
+
+.row>* {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
 
 .justify {
     justify-content: space-between;
@@ -53,9 +61,13 @@
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 -15px;
+
 }
+
+.container-fluid {}
 
 .menu ul li a {
     text-decoration: none;
@@ -78,18 +90,15 @@ img {
     position: relative;
 }
 
-[class *=col] {
+/* [class *=col] {
     width: 100%;
-}
+} */
 
 
 .menu {
     padding: 50px 0;
 }
 
-.menu ul {
-    display: flex;
-}
 
 .menu ul li {
     display: inline-block;
@@ -110,12 +119,12 @@ img {
 }
 
 .header_img {
-    width: 90%;
+
     filter: grayscale(20);
 }
 
 .header_text {
-    padding-top: 50px;
+    padding: 0 50px;
     width: 50%;
 }
 
@@ -135,9 +144,7 @@ img {
 }
 
 .header_end {
-    padding: 10px 0;
-    /* display: flex; */
-    /* flex-direction: column; */
+    padding: 10px 40px;
     text-align: right;
     font-family: 'IBMitalic';
 }
@@ -604,6 +611,10 @@ img {
         width: 540px;
     }
 
+    .menu ul {
+        display: none;
+    }
+
     .menu ul li a {
         color: grey;
         padding: 0px;
@@ -654,6 +665,11 @@ img {
     .container {
         width: 720px;
     }
+
+    .menu ul {
+        display: flex;
+    }
+
 
     .header_text h1 {
         font-family: 'IBM';

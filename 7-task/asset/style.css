@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 177, 227);
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-ab {
+    position: absolute;
+}
+
+.container {
+    padding: 50px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ring {
+    left: 24%;
+    top: 6%;
+}
+
+.white {
+    /* width: 500px; */
+    /* height: 500px; */
+    /* background-color: #e65525; */
+    /* border-radius: 50%; */
+    /* box-shadow: 0 0 100px 20px grey; */
+}
+
+.ring {
+    border-radius: 50%;
+    box-shadow: 0 0 200px 20px grey;
+}
