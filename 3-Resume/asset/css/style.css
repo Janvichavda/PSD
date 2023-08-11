@@ -201,8 +201,8 @@ img {
 }
 
 .sec-2-header h1 {
-    font-size: 78px;
-    width: 50%;
+    font-size: 40px;
+    width: 90%;
     margin: 0 auto;
     font-family: 'IBMbold';
 }
@@ -709,12 +709,6 @@ img {
         border: none;
         color: white;
     }
-
-
-
-
-
-
 }
 
 
@@ -723,6 +717,11 @@ img {
         width: 960px;
     }
 
+
+    .sec-2-header h1 {
+        width: 50%;
+        font-size: 78px;
+    }
 
     .col_30 {
         width: 30%;
@@ -752,6 +751,9 @@ img {
         width: 25%;
     }
 
+    .col_80 {
+        width: 80%;
+    }
 
 }
 
