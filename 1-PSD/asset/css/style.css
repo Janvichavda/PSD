@@ -21,7 +21,6 @@ a {
     margin: 0 auto;
 }
 
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +28,6 @@ a {
 
 [class *=col_] {
     width: 100%;
-
 }
 
 /* 
