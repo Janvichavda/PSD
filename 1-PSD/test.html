@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #444;
+            font-family: monospace;
+            font-size: 44px;
+            flex-direction: column;
+            background: #00796B;
+            color: #E0F2F1;
+        } */
+
+        .text {
+            width: 29ch;
+            border-right: 3px solid;
+            animation: blink 1s step-end infinite, type 2.5s steps(29) forwards;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        @keyframes type {
+            0% {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            Typing Effect using Pure CSS.
+        </div>
+    </div>
+
+</body>
+
+</html>
