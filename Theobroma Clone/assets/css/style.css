@@ -1071,7 +1071,6 @@ details ul li {
         padding: 0px;
     }
 
-
 }
 
 /* ---about us start--- */
@@ -1118,7 +1117,24 @@ details ul li {
     top: 0;
 }
 
-
 /* ---about us sec2 end --- */
 
 /* ---about us end--- */
+
+/* product page */
+
+/* p_sec1 */
+.p_sec1_t h1{
+font-size: 35px;
+padding: 20px;
+}
+
+.p_sec1_i img{
+    margin: 0 auto;
+}
+.p_sec1_text p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding:10px 0;
+}
